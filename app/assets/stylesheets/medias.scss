@@ -1,3 +1,38 @@
 // Place all the styles related to the medias controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+.title {
+    text-align: center;
+    font-size: 50px;
+    color: #4B296B;
+}
+
+.list {
+    padding-left: 30vh;
+    list-style: none;
+    text-align: left;
+    font-size: 25px;
+    color: #DB504A;
+}
+
+.media {
+    padding-left: 30vh;
+    text-align: left;
+    font-size: 25px;
+    color: #3D5B34;
+}
+
+.watched {
+    padding-left: 30vh;
+    text-align: left;
+    font-size: 25px;
+    color: blue;
+}
+
+.unwatched {
+    padding-left: 30vh;
+    text-align: left;
+    font-size: 25px;
+    color: red;
+}

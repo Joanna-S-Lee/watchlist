@@ -1,0 +1,13 @@
+<div class="title">
+<h2>Watchlist</h2>
+</div>
+
+<div class="media">
+<h3>ID: <%= @medias.id %></h3>
+<h3>Title: <%= @medias.title %></h3>
+<h3>Description: <%= @medias.description %></h3>
+<h3>Watched: <% if @medias.watched %> <div class="watched"> You have watched this </div> <% else %> <div class="unwatched"> WATCH NOW!</div> <% end %>
+</h3>
+</div>
+
+

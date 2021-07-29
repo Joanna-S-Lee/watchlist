@@ -1,0 +1,14 @@
+<div class="title">
+<h2>Watchlist</h2>
+
+<div class="list">
+<% @medias.each do |media| %>
+<h4><%= link_to "#{media.title}", media_path(media)  %></h4>
+<%= media.description %>
+<% end %>
+</div>
+
+</div>
+
+
+
