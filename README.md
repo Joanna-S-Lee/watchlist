@@ -23,5 +23,3 @@ Things you may want to cover:
 
 * ...
 
-username: test@test.com
-password: test12
