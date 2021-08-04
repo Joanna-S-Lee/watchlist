@@ -1,12 +1,28 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="/">
     <%# <img src="icons8-wish-list-100.png"> %>
     <%= image_tag "icons8-numbered-list-64.png", size: '30x24', class: "d-inline-block align-text-top" %>
     <%# alt="" width="30" height="24" class="d-inline-block align-text-top" %>
     Watchlist
     </a>
+
+    <a class="navbar-brand" href="medias/new">
+    Add an Item
+    </a>
     
+    <a class="navbar-brand" href="medias">
+    View Watchlist
+    </a>
+
+
+        <%# <% if user_signed_in?%>
+            <%# <% "Hi, #{user.email}" %>
+        <%# <% end %>  
+    <form class="d-flex">
+      <input class="form-control me-2" type="search" placeholder="Search your Watchlist" aria-label="Search">
+      <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
